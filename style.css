@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+body{
+    font-family: "PT Sans", sans-serif;
+    background-color: #252529;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+nav{
+    height: 40px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+}
+nav ul{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    /* margin-left: 20px; */
+    /* justify-content: space-evenly; */
+    
+}
+nav ul li{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    
+
+}
+nav a:hover{
+    background-color: #444;
+}
+.showcase{
+    background: url(./img/showcase.jpeg) no-repeat center/cover;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.showcase .main-section-container{
+    text-align: center;
+    padding: 250px 50px;
+}
+.showcase h1{
+    font-size: 4rem;
+}
+.showcase h3{
+    font-size: 2rem;
+}
+
+.section_2{
+    text-align: center;
+    background-color: #252529;
+}
+.music{
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.music_text h1{
+    font-size: 3rem;
+}
+.music_text p{
+    margin-top: 40px;
+}
+.btn-danger{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 20px;
+    margin-top: 20px;
+}
+.stream{
+    padding-top: 20px;
+    font-size: 1.5rem;
+
+}
+.section_3{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 50px 10px;
+}
+.section_3 h2{
+    font-size: 2rem;
+}
+.section_3 p{
+    font-size: 1.5rem;
+}
+.btn-success{
+    padding: 20px 20px;
+    background-color: #103063;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.section_4{
+    background: url(/img/section-bg.jpeg) no-repeat bottom/cover;
+    align-items: center;
+    text-align: center;
+    padding: 10rem 0;
+    
+}
+.section_4 h2{
+    font-size: 2rem;
+    padding-top: 20px; 
+}
+.section_5{
+    background-color: white;
+    display: flex;
+    color: black;
+    font: 1.5rem;
+}
+.section_5 img{
+    width: 50%;
+}
+#already{
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+.gift{
+    margin-top: 30px;
+}
+.section_6{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding: 30px 10px;
+    background-color: black;
+}
+.section_6 ul {
+    
+    padding: 0;
+    
+}
+.section_6 ul li {
+    list-style: none;
+    
+    padding: 0;
+}
+.head h2{
+    padding-bottom: 10px
+    ;
+    border-bottom: 1px solid white;
+}
+.section_7{
+    text-align: center;
+}
+@media screen and (max-width:580px){
+    nav{
+    height: auto;
+    font-size: 12px;
+    
+    }
+    nav ul{
+        text-align: left;
+        display: flex;
+        margin: 0;
+        justify-content: normal;
+        
+        
+    }
+    nav a{
+        display: flex;
+        text-align: left;
+        width: 100%;
+
+        
+    }
+    nav li{
+        width: 100%;
+       margin: 0;
+       padding: 0;
+       margin-right: 20px;
+
+    }
+    .showcase{
+        height: 50vh;
+    }
+    .showcase .main-section-container{
+        
+        padding: 20px 40px 
+    }
+    img{
+        width: 80%;
+        height: 80%;
+    }
+    .music_text h1, p{
+        padding: 20px 40px;
+        text-align: center;
+    }
+    .music_text h1{
+        font-size: 2rem;
+    }
+    .section_4 h2{
+        font-size: 2.5rem;
+    }
+    .section_4 p{
+        font-size: 1.5rem;
+    }
+    .section_5{
+        display: block;
+        padding: 20px;
+        margin: 0;
+    }
+    .section_5 img{
+        padding-left: 20px;
+        width: 70%;
+    }
+    .section_5 p{
+        text-align: left;
+    }
+    .section_5 h3, a{
+        padding-left: 40px;
+        text-decoration: none;
+
+
+    }
+    .section_6{
+        display: none;
+    }
+}
